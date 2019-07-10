@@ -5,5 +5,7 @@ var ingredient4 = "butter"
 var ingredient5 ="tomato"
 var ingredient6 = "garlic"
 var chocolateBars = ["snickers","hundred grand","kitkat","skittles"];
-var addElementToBeginningOfArray = ["New York", "San Francisco"]
-cities.unshift("Philadelphia")
+function addElementToBeginningOfArray (array,element) {
+  const newArray =[element,...array]
+return newArray
+}
