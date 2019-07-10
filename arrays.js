@@ -15,3 +15,9 @@ function destructivelyAddElementToBeginningOfArray(array,element) {
   array.unshift(element)
   return array
 }
+
+functio addElementToEndOfArray(array,element){
+  const newArray =[...arrat,element]
+  return newArray
+}
+
